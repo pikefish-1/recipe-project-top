@@ -1,0 +1,43 @@
+/* file for home page*/
+
+* {                                                                      /*sets font */
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+body, .recipe-link {                                                     /* sets background color for webpage (body) and recipie pics*/
+    background-color: rgb(236, 132, 196);
+}
+
+
+.recipe-link, {                                                         /*gives seperation for recipe links*/
+    padding:1em;
+    display: inline-block;
+    margin-bottom: 1em;
+
+}
+
+#title, .topic {                                                        /*sets the title of the page and the main topics text styles*/
+    background-color: rgb(10, 10, 10);
+    color: white;
+    display: inline-block;   
+    
+}
+    
+
+
+div.image-posit {                                                       /*sets img position*/
+    position: relative;
+    left: 900px;
+    bottom: 600px; 
+    
+}
+
+
+.kid, .walter {                                                            /*makes img border*/
+    display: inline-block;
+    border: 5px solid black;
+}

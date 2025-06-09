@@ -1,33 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="css/styles.css">   <!--link style sheet for page, poss rename to "homepage-style.css"?-->
         <meta charset="UTF-8">
         <title>Odin Recipies Project</title>
+            <!--font-->
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+            <!--font-->
     </head>
     <body>
-        <h1>Odin Recipes Final HTML Project!</h1> <!--Stupid gif; dont know css; had to place it higher for position--> <img src="imgs/crying-kid.gif" style="float: right;">
+        <h1 id="title">Odin Recipes Final HTML Project!</h1>    <!--set id as title in css-->
 <br>
-        <h2>World of Warcraft Recipies:</h2>
-
+        <h2 class="topic">World of Warcraft Recipies:</h2>    <!--set id as topic in css-->
+<br>
+<div class="recipe-link">                                                       <!--set id as recipe-link in css-->
         <a href="recipes/beer-basted-boar-ribs.html">Beer Basted Boar Ribs</a> 
             <br> <!--break puts img of ribs under the link-->
-            <a href="recipes/beer-basted-boar-ribs.html"><img src="imgs/beer-basted-boar-ribs.jpg" alt="Delicious sauce covered ribs" height="100"></a> <!--added the img inside of a link to make the img also go to the link-->
-<br>
-
+            <a href="recipes/beer-basted-boar-ribs.html"><img src="imgs/beer-basted-boar-ribs.jpg" alt="Delicious sauce covered ribs" height="100"></a> 
+</div>
+            <br>
+<div class="recipe-link">
     <a href="recipes/bean-soup.html">Bean Soup</a>
         <br>
-        <a href="recipes/bean-soup.html"><img src="imgs/bean-soup.jpg" height="100"></a> <!--added the img inside of a link to make the img also go to the link-->
+        <a href="recipes/bean-soup.html"><img src="imgs/bean-soup.jpg" height="100"></a> 
+</div>
+        <br>
 <br>
+        <h2 class="topic">Avatar the Last Airbender Recipies:</h2>
 <br>
-        <h2>Avatar the Last Airbender Recipies:</h2>
-
+<div class="recipe-link">
         <a href="recipes/fire-flakes.html">Flaming Fire Flakes</a>
         <br>
         <a href="recipes/fire-flakes.html"><img src="imgs/fire-flakes.jpg" alt="Corn flakes covered in various spices"height="150"></a>
+</div>
 
-        <!--stupid gif under here had to use float right to move it bc idk CSS yet-->
-        <img src="imgs/waltuh.gif" style="float: right;" height="350">
-       
+<div class="image-posit">
+        <img src="imgs/waltuh.gif" style: height="202px" class="walter" alt="gif of meth cook">
+        <br>
+        <img src="imgs/crying-kid.gif"style: height="286px" class="kid" alt="gif of crying kid"> <!-- make css stlye to position these-->
+</div>
     </body>
 </html>
 
