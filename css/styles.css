@@ -1,6 +1,12 @@
 /* file for home page*/
 
-* {                                                                      /*sets font */
+body {                                                                  /*BACKGROUND IMG*/
+    background-image: url(../imgs/homepage-cooking.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {                                                                     /*sets font */
     font-family: "Lora", serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -8,26 +14,23 @@
 
 }
 
-body, .recipe-link {                                                     /* sets background color for webpage (body) and recipie pics*/
-    background-color: rgb(236, 132, 196);
-}
-
-
-.recipe-link, {                                                         /*gives seperation for recipe links*/
-    padding:1em;
-    display: inline-block;
-    margin-bottom: 1em;
+.recipe-link, .button {                                                 /*gives seperation for recipe links*/
+    display:inline-block;
+    background-color: blanchedalmond;
+    padding: 3px;
+    border:5px;
+    margin:5px
 
 }
 
 #title, .topic {                                                        /*sets the title of the page and the main topics text styles*/
-    background-color: rgb(10, 10, 10);
-    color: white;
-    display: inline-block;   
+    background-color: blanchedalmond;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding-right: 10px;   
+    padding-left: 10px;
     
 }
-    
-
 
 div.image-posit {                                                       /*sets img position*/
     position: relative;
@@ -36,8 +39,7 @@ div.image-posit {                                                       /*sets i
     
 }
 
-
-.kid, .walter {                                                            /*makes img border*/
+.kid, .walter {                                                        /*makes img border*/
     display: inline-block;
     border: 5px solid black;
 }

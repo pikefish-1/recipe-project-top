@@ -1,0 +1,49 @@
+/*FILE FOR FIRE-FLAKES*/
+
+body {                                                 /*BACKGROUND IMG*/
+ background-image: url(../imgs/fire-background.jpg); /*had to input the ".." manually to start from parent directory */
+ height: 100 ;
+ width: 100 ;
+ background-size: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ margin: 0;
+}
+
+* {                                                    /*fonts, colors */
+    color: rgb(255, 255, 255);
+    background-color: black; /* need to find a way to wrap the background color without 'display: inline-block'*/ /* I used divs!*/  
+
+    /*sets font*/
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal; 
+
+}
+
+div {                                                  /*MAIN CONTENT*/
+    height: fit-content;
+    width:fit-content;
+    margin: 1em;
+    padding-right: 10px;
+    
+}
+
+.homebutton {                                          /* BOTH HOME BUTTON*/
+   height: fit-content; 
+   width: fit-content;
+   margin: 1em;
+   padding: 10px;
+}
+
+.top {                                                 /* TOP HOME BUTTON*/
+   position: relative;
+   top: 1em;
+}
+
+.bottom {                                              /* BOTTOM HOME BUTTON*/
+   position: relative;
+   bottom: 1em;
+   
+}
